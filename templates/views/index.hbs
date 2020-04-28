@@ -3,23 +3,27 @@
 <html>
     
     <head>
-        <link rel="icon" href="/img/weather.png">
-        <link rel="stylesheet" href="/css/styles.css">
-        
+        {{>head}}
+        <title>Weather Home</title>
     </head>
 
     <body>
         <div class="main-content">
-            {{>header}}
-            <p> Use this site to get your weather!</p>
-        
-            <form>
+            {{>navbar1}}
+            
+        <div class="text-center">
+            <p class="paraBackground"> Get the latest weather update!</p>
+            <form id="mySearchForm">
                 <input placeholder="location">
                 <button>Search</button>
             </form>
+            <div>
+                <p id="message-1"></p>
+                <p id="message-2"></p>
+            </div>
+        </div>
+            
 
-            <p id="message-1"></p>
-            <p id="message-2"></p>
         </div>
 
         {{>footer}}

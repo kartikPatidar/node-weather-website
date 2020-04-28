@@ -2,16 +2,18 @@
 
 <html>
     <head>
-        <link rel="icon" href="/img/weather.png">
+        {{>head}}
         <title>About</title>
-        <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
         <div class="main-content">
-            {{>header}}
-
-            <img class="portrat" src='/img/robot.png'>
+            {{>navbar1}}
+            <p class="text-center paraBackground">This website is created by Kartik Patidar.</p>
+            <p class="text-center paraBackground">It uses data from mapbox.com and darksky.net</p>
+            <div>
+                <img class="img-fluid rounded mx-auto d-block portrat" src='/img/robot.png'>
+            </div>
         </div>
 
         {{>footer}}

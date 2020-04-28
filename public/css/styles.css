@@ -31,6 +31,10 @@ h1 {
     margin-bottom: 16px;
 }
 
+.paraBackground {
+    background-color:rgba(0, 0, 0, 0.1);
+}
+
 header a {
     color: #888888;
     margin-right: 16px;
@@ -52,4 +56,32 @@ button {
     background: #888888;
     color: white;
     padding: 8px;
+}
+
+nav {
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    background: #3fa46a;
+}
+  
+nav a {
+    transition: 0.5s ease;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 4px solid transparent;
+    padding: 20px 0;
+    margin: 0 5px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    transition: width 1s ease, background-color 1s ease;
+    border-bottom: 4px solid #c4fa30;
+    font-size: 18px;
+}
+
+#mySearchForm {
+    padding-top: 30px;
 }

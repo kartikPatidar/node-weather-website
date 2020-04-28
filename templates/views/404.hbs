@@ -2,14 +2,15 @@
 
 <html>
     <head>
+        {{>head}}
         <title>404</title>
-        <link rel="icon" href="/img/weather.png">
-        <link rel="stylesheet" href="/css/styles.css">
+
     </head>
 
     <body>
+        {{>navbar1}}
         <div class="main-content">
-        {{>header}}
+        <h1>404</h1>
         <p>{{errorMessage}}</p>
 
         </div>
